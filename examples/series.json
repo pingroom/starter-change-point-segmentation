@@ -1,0 +1,37 @@
+{
+  "seriesId": "batch-measurements",
+  "title": "Measurement segmentation",
+  "context": "Select the documented analysis setting.",
+  "unit": "ms",
+  "measurements": [
+    10,
+    11,
+    9,
+    30,
+    31,
+    29,
+    10,
+    11,
+    9
+  ],
+  "profiles": [
+    {
+      "id": "detail",
+      "label": "Detailed",
+      "reference": "Analysis guide section 1",
+      "penalty": 0
+    },
+    {
+      "id": "balanced",
+      "label": "Balanced",
+      "reference": "Analysis guide section 2",
+      "penalty": 20
+    },
+    {
+      "id": "smooth",
+      "label": "Single tendency",
+      "reference": "Analysis guide section 3",
+      "penalty": 10000
+    }
+  ]
+}
